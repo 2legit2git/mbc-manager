@@ -5,6 +5,22 @@ angular.module('mbcManagerApp')
     $scope.menu = [{
       'title': 'Home',
       'state': 'main'
+    }, {
+      'title': 'Extra',
+      'state': 'extra',
+      'admin': true
+    }, {
+      'title': 'Create',
+      'state': 'create',
+      'admin': true
+    }, {
+      'title': 'Manage',
+      'state': 'manage',
+      'admin': true
+    }, {
+      'title': 'Admin',
+      'state': 'admin',
+      'admin': true
     }];
 
     $scope.isCollapsed = true;
